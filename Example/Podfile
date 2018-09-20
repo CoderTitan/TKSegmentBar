@@ -1,0 +1,18 @@
+source 'https://git.coding.net/CoderTitan/TitanjunSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
+
+
+
+use_frameworks!
+
+target 'TKSegmentBar_Example' do
+  pod 'TKSegmentBar', :path => '../'
+
+  target 'TKSegmentBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+  
+  
+end

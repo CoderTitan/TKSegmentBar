@@ -1,0 +1,23 @@
+PODS:
+  - TitanFMBase/Category (0.2.2)
+  - TKSegmentBar (0.2.1):
+    - TitanFMBase/Category
+
+DEPENDENCIES:
+  - TKSegmentBar (from `../`)
+
+SPEC REPOS:
+  https://git.coding.net/CoderTitan/TitanjunSpec.git:
+    - TitanFMBase
+
+EXTERNAL SOURCES:
+  TKSegmentBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TitanFMBase: 72cc33b81bd7914bcff7da4a2274e4db72843a89
+  TKSegmentBar: 4ce18a0d04f333900f56487ef7041b1e342cc042
+
+PODFILE CHECKSUM: 5a5ffdceaceb7c39891c3240e2247d507dcde52e
+
+COCOAPODS: 1.5.3

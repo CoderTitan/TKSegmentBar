@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029F4506CDB6A1E5966C7CE123FA073B /* NSArray+Partition.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05BE36DA88F5B02AE5E9911421D93FA2 /* icon_radio_show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 110F3B38CAFF60CE0B1AE8E204603993 /* icon_radio_show@2x.png */; };
+		0DB9AF98286019867A47D9F0648C1518 /* NSObject+TKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13698E6271B8D284CC927F54605E40D4 /* TKSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AAECDA8120455777E02FAFC5F7D289 /* TKSegmentBar-dummy.m */; };
+		13C0342177E219565C63CFF13035C4E3 /* NSObject+TKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */; };
+		20C8321CE386F98AD144D47A5883C583 /* TKSegmentController.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C4E8D4750D2D2ADF247811F7B580BF /* TKSegmentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2864043DE81968B054BAB32DA26110B3 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */; };
+		2BEBAEFC45F5E1E0428F6374CE89C8D4 /* TKSegmentMenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF1F7C2427A5F46F28B57BBA07FADCB /* TKSegmentMenueCell.m */; };
+		37324F7C8C518A99573C3C326E3E5450 /* UIView+TKNib.h in Headers */ = {isa = PBXBuildFile; fileRef = D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3796C6AA1619703D6DB287D22A1A5AF3 /* TKSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD160F4AA8B1DA7310484E6A4D67BE0 /* TKSegmentController.m */; };
+		3E6F0061BAC343F733D0B13B332778E5 /* TKSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DBE17ACB915E71DE4D06D8B77EFA5A /* TKSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0FD2773EFB56BF1F3EB45EEEBE060A /* TitanFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41FD5CB1B349BE62B9E7D06AB66CE525 /* TKSegmentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE0F63F2198382A5F678FB27E52F1C8 /* TKSegmentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5191F9FBCA23ABA6B49FAA640136BFC0 /* TKSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B86F72371421F3D7F90D1434EF9F817 /* TKSegmentBar.m */; };
+		52D97A3B222C9C59E0B9770385E5C3CE /* TKSegmentModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B9DA4D48625F12732D65CE7DB52CDF /* TKSegmentModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A87E75FEE1DE43B8CC2E142FB68B612 /* NSString+SegmentProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0F9F33F050F3480304153D2BCCCF1A /* NSString+SegmentProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D64CA7D848215E9458869835533BF25 /* NSString+SegmentProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 256FA6EBB23EE858B3650F426F88C6EE /* NSString+SegmentProtocol.m */; };
+		688D6F343A1E4DA89D48AB00F0052B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		73AC0CAFBE2C48D2EE1A0E203D0B68B5 /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C156FAEBA312C96BFE1F96000070E6 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */; };
+		7AEF48872ED9DF5763AB086AD35B3724 /* TitanFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */; };
+		7CD664F8C29F8A07DBBA34D76075AFA6 /* icon_radio_hide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3113F778951EDE2B7215DD323ED91FA6 /* icon_radio_hide@2x.png */; };
+		81776DE76A947F65BA176730F22CCBDA /* NSArray+Partition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */; };
+		832CC1F84B95FEBD6FB190AF68CE3B7B /* TKSegmentBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 819C60D4C2A0681AD1733BB415D007A8 /* TKSegmentBar.bundle */; };
+		8AA431A8DCA2DA459046B2FF7E534EAA /* TKSegmentMenueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B95B6F5FD2A4DED796768971AC68D34A /* TKSegmentMenueCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BBCF0AD808BF5EC9EA2FC2202E89F03 /* TitanFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */; };
+		96E19652BABE2C77F8F0A40E05C627A2 /* icon_radio_show@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 006062B6C94E2374BF9854F4CD5688A4 /* icon_radio_show@3x.png */; };
+		9C7B818DD051CA7579F910104C2EF717 /* Pods-TKSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0287F844B6043E6A5B5771474202F2EC /* Pods-TKSegmentBar_Tests-dummy.m */; };
+		AAA5E230DF84097E47259D75A4597577 /* TKSegmentMenueCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F60E8B84EECBCBD8348FB0BECA7C0739 /* TKSegmentMenueCell.xib */; };
+		AAC8891EAE95E6089DB50AC592E8A1CE /* icon_radio_hide@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A16CDBCC64FA9ACA6FC51F1A2412EDD /* icon_radio_hide@3x.png */; };
+		B1467700C8AA224D472F7513D08CCCBE /* TKSegmentConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF9FBE2A3A7D75FAEAC3B9878E5C6A5 /* TKSegmentConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E75617C13B5948A34BB2EF9356130D /* UIView+TKNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */; };
+		C7756B03E267DB878BF2F4C898EA2E89 /* Pods-TKSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 823886ECE8364659F4B5CB0AD4AE364F /* Pods-TKSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB97585EB011FF22503285B9DF255CD1 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB9D58EA7DB07D8DE42EB78792FAA39D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		D1B59F4152E6B48BF10D2CF180B1E8B1 /* TKSegmentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA7BD2C79C53B157F7E34920099EA08 /* TKSegmentConfig.m */; };
+		D3BA68FC50502DDDAC388C5F31C8B42D /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC337DA9A3F9DED1D38C119B830E261 /* Pods-TKSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E75BFD518503BA6D880B09BC7D4AD /* Pods-TKSegmentBar_Example-dummy.m */; };
+		E3F4CA4ECB97DD5C7D2763E4C96E89BA /* TKSegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1710DAE68DD95DBD06004E285878A1F1 /* TKSegmentButton.m */; };
+		E998CA66390864A52AEBF5735986DEBD /* TKSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0B8C24D3592D21EC1AC68A1D3F6072 /* TKSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7A18853A37B70D1C07E03478E6898A /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */; };
+		F0AF5680F1E473D0C88BAA631FB8AD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		F4D06772AD73AED26C5BAA5899D87CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */; };
+		FF298175F6BBBCDDF85D3930BE72D36E /* Pods-TKSegmentBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2497D6317FE45096726F1BD705116F19 /* Pods-TKSegmentBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4170A18B7926022B42C3CEAB10CBF984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F3A4B62A70E20436326635A38AEFA4;
+			remoteInfo = "TKSegmentBar-TKSegmentBar";
+		};
+		4A3B0CEA4C091BDDA39F93170EB416C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAEC93FAF297FA790494EE6E0EBE72B;
+			remoteInfo = TitanFMBase;
+		};
+		A908BFD5D58B3D8F8AA90936376F55C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45882A17A423C278BEEA8A461BF14FE7;
+			remoteInfo = TKSegmentBar;
+		};
+		C1278434A104D19C4857FFE8DDCB065C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDAD1E3F302CA63496F2ECDF5E578CF;
+			remoteInfo = "Pods-TKSegmentBar_Example";
+		};
+		EC02E890E01245C83348382A2912C0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAEC93FAF297FA790494EE6E0EBE72B;
+			remoteInfo = TitanFMBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006062B6C94E2374BF9854F4CD5688A4 /* icon_radio_show@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_radio_show@3x.png"; path = "TKSegmentBar/Assets/icon_radio_show@3x.png"; sourceTree = "<group>"; };
+		0287F844B6043E6A5B5771474202F2EC /* Pods-TKSegmentBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKSegmentBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "TitanFMBase/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		07256657C15F38221A648952280D9C32 /* Pods-TKSegmentBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSegmentBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		0B652903A0B845BCE72E7831081EACC5 /* TKSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TKBundle.m"; path = "TitanFMBase/Classes/Category/NSObject+TKBundle.m"; sourceTree = "<group>"; };
+		110F3B38CAFF60CE0B1AE8E204603993 /* icon_radio_show@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_radio_show@2x.png"; path = "TKSegmentBar/Assets/icon_radio_show@2x.png"; sourceTree = "<group>"; };
+		1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Partition.m"; path = "TitanFMBase/Classes/Category/NSArray+Partition.m"; sourceTree = "<group>"; };
+		1710DAE68DD95DBD06004E285878A1F1 /* TKSegmentButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKSegmentButton.m; path = TKSegmentBar/Classes/TKSegmentButton.m; sourceTree = "<group>"; };
+		1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TitanFMBase-dummy.m"; sourceTree = "<group>"; };
+		23C9FA2082A6E9CD99E652AECBF89924 /* TKSegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSegmentBar.framework; path = TKSegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2497D6317FE45096726F1BD705116F19 /* Pods-TKSegmentBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKSegmentBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image.m"; path = "TitanFMBase/Classes/Category/UIImage+Image.m"; sourceTree = "<group>"; };
+		256FA6EBB23EE858B3650F426F88C6EE /* NSString+SegmentProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SegmentProtocol.m"; path = "TKSegmentBar/Classes/NSString+SegmentProtocol.m"; sourceTree = "<group>"; };
+		2DA7BD2C79C53B157F7E34920099EA08 /* TKSegmentConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKSegmentConfig.m; path = TKSegmentBar/Classes/TKSegmentConfig.m; sourceTree = "<group>"; };
+		2DF9FBE2A3A7D75FAEAC3B9878E5C6A5 /* TKSegmentConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentConfig.h; path = TKSegmentBar/Classes/TKSegmentConfig.h; sourceTree = "<group>"; };
+		3113F778951EDE2B7215DD323ED91FA6 /* icon_radio_hide@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_radio_hide@2x.png"; path = "TKSegmentBar/Assets/icon_radio_hide@2x.png"; sourceTree = "<group>"; };
+		38FCEC8A364BC6D716D9118CDB9481B7 /* Pods-TKSegmentBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKSegmentBar_Example.modulemap"; sourceTree = "<group>"; };
+		3A8E75BFD518503BA6D880B09BC7D4AD /* Pods-TKSegmentBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKSegmentBar_Example-dummy.m"; sourceTree = "<group>"; };
+		3F0F9F33F050F3480304153D2BCCCF1A /* NSString+SegmentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SegmentProtocol.h"; path = "TKSegmentBar/Classes/NSString+SegmentProtocol.h"; sourceTree = "<group>"; };
+		4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TitanFMBase.xcconfig; sourceTree = "<group>"; };
+		450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TKNib.m"; path = "TitanFMBase/Classes/Category/UIView+TKNib.m"; sourceTree = "<group>"; };
+		4516142E4E80E8C806C97EE1F87A4544 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TitanFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530AA926ACAF6149216377E641EAC67B /* ResourceBundle-TKSegmentBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TKSegmentBar-Info.plist"; sourceTree = "<group>"; };
+		57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "TitanFMBase/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		5A536519982D8CC2C0E2614277B82DEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0F70895A98753572F07BC4E7CF50ED /* Pods-TKSegmentBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKSegmentBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F9A01A1DCB443A62D53BCA3860C0D18 /* Pods-TKSegmentBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSegmentBar_Example-resources.sh"; sourceTree = "<group>"; };
+		5FE0F63F2198382A5F678FB27E52F1C8 /* TKSegmentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentButton.h; path = TKSegmentBar/Classes/TKSegmentButton.h; sourceTree = "<group>"; };
+		60B0FB401DDF118C410925DDBBEB4859 /* Pods_TKSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKSegmentBar_Example.framework; path = "Pods-TKSegmentBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E750527BD97EB9DC8C8051CDEE1E71 /* Pods-TKSegmentBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKSegmentBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A16CDBCC64FA9ACA6FC51F1A2412EDD /* icon_radio_hide@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_radio_hide@3x.png"; path = "TKSegmentBar/Assets/icon_radio_hide@3x.png"; sourceTree = "<group>"; };
+		6BA80953032B6ECFFD173CF7FB195F90 /* TKSegmentBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TKSegmentBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BBFA663FC0783C1AFF519AED1EEFEFD /* Pods-TKSegmentBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKSegmentBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TitanFMBase/Classes/Category/UIView+Layout.h"; sourceTree = "<group>"; };
+		79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Partition.h"; path = "TitanFMBase/Classes/Category/NSArray+Partition.h"; sourceTree = "<group>"; };
+		7B86F72371421F3D7F90D1434EF9F817 /* TKSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKSegmentBar.m; path = TKSegmentBar/Classes/TKSegmentBar.m; sourceTree = "<group>"; };
+		7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+TKBundle.h"; path = "TitanFMBase/Classes/Category/NSObject+TKBundle.h"; sourceTree = "<group>"; };
+		7F3A268949CD8A686B205B641DAAE7CB /* TitanFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TitanFMBase.framework; path = TitanFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819C60D4C2A0681AD1733BB415D007A8 /* TKSegmentBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TKSegmentBar.bundle; path = "TKSegmentBar-TKSegmentBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823886ECE8364659F4B5CB0AD4AE364F /* Pods-TKSegmentBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKSegmentBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85AAECDA8120455777E02FAFC5F7D289 /* TKSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSegmentBar-dummy.m"; sourceTree = "<group>"; };
+		8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image.h"; path = "TitanFMBase/Classes/Category/UIImage+Image.h"; sourceTree = "<group>"; };
+		935A387315F1DD112BCF43F8F2DF2F37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973A1455F48D770D3E41D13CFACAC2E9 /* Pods-TKSegmentBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKSegmentBar_Tests.modulemap"; sourceTree = "<group>"; };
+		98339D1D387B35994C02C416F2F375C5 /* Pods_TKSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKSegmentBar_Tests.framework; path = "Pods-TKSegmentBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4FD2A5693CB3ECA326EB0DB33D6E31 /* TitanFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TitanFMBase-prefix.pch"; sourceTree = "<group>"; };
+		B1C4E8D4750D2D2ADF247811F7B580BF /* TKSegmentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentController.h; path = TKSegmentBar/Classes/TKSegmentController.h; sourceTree = "<group>"; };
+		B20B2FE3434D8CEFEB37EED10C6858F8 /* Pods-TKSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B2B9DA4D48625F12732D65CE7DB52CDF /* TKSegmentModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentModelProtocol.h; path = TKSegmentBar/Classes/TKSegmentModelProtocol.h; sourceTree = "<group>"; };
+		B6425B12CB6C1EBFDD8A8B7801CAC311 /* Pods-TKSegmentBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSegmentBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B6460FA0F8882DF7C85FB40978BC9E17 /* Pods-TKSegmentBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSegmentBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B95B6F5FD2A4DED796768971AC68D34A /* TKSegmentMenueCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentMenueCell.h; path = TKSegmentBar/Classes/TKSegmentMenueCell.h; sourceTree = "<group>"; };
+		BD779590F1FBC8E104EEB7A80FD5BE43 /* Pods-TKSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C07BC939E7CFF4AA22CFC49750F4766C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE978FF3A86CFF3D352D9DC6D23B5CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C4DAEA1C136949F0BD0909F72D0991 /* Pods-TKSegmentBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKSegmentBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TKNib.h"; path = "TitanFMBase/Classes/Category/UIView+TKNib.h"; sourceTree = "<group>"; };
+		D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TitanFMBase/Classes/Category/UIView+Layout.m"; sourceTree = "<group>"; };
+		E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSegmentBar.xcconfig; sourceTree = "<group>"; };
+		E1DBE17ACB915E71DE4D06D8B77EFA5A /* TKSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKSegmentBar.h; path = TKSegmentBar/Classes/TKSegmentBar.h; sourceTree = "<group>"; };
+		E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E935F0E0E6382EA05073BDBEA5BD8612 /* Pods-TKSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB4EBD8115129CA7F175FCDC1F96D42 /* Pods-TKSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD160F4AA8B1DA7310484E6A4D67BE0 /* TKSegmentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKSegmentController.m; path = TKSegmentBar/Classes/TKSegmentController.m; sourceTree = "<group>"; };
+		ED0B8C24D3592D21EC1AC68A1D3F6072 /* TKSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSegmentBar-umbrella.h"; sourceTree = "<group>"; };
+		ED68392CFC6DA747BC021C65720186A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F423131DABF277657A242F64837D948F /* TKSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKSegmentBar.modulemap; sourceTree = "<group>"; };
+		F60E8B84EECBCBD8348FB0BECA7C0739 /* TKSegmentMenueCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TKSegmentMenueCell.xib; path = TKSegmentBar/Classes/TKSegmentMenueCell.xib; sourceTree = "<group>"; };
+		FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TitanFMBase-umbrella.h"; sourceTree = "<group>"; };
+		FD702D3EC3A82811F76490852266F2C8 /* TitanFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TitanFMBase.modulemap; sourceTree = "<group>"; };
+		FEF1F7C2427A5F46F28B57BBA07FADCB /* TKSegmentMenueCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKSegmentMenueCell.m; path = TKSegmentBar/Classes/TKSegmentMenueCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04426FA7F9B66DA066CB06CDCD31CAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED9B9744C756ADFF42470C67972CB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688D6F343A1E4DA89D48AB00F0052B5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38FF42281BF2479650F623A07E036A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D06772AD73AED26C5BAA5899D87CCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77658E9645E830BB1C7FF478BDA5A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF5680F1E473D0C88BAA631FB8AD57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD9FB44E8A464D8B31E9A2EB389B727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9D58EA7DB07D8DE42EB78792FAA39D /* Foundation.framework in Frameworks */,
+				8BBCF0AD808BF5EC9EA2FC2202E89F03 /* TitanFMBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB7B8EA8081789C60C33391AF5E9DA2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED68392CFC6DA747BC021C65720186A5 /* LICENSE */,
+				4516142E4E80E8C806C97EE1F87A4544 /* README.md */,
+				6BA80953032B6ECFFD173CF7FB195F90 /* TKSegmentBar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0C57EED0EF2C82B7DC1AF2A6847D26E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C07BC939E7CFF4AA22CFC49750F4766C /* Info.plist */,
+				FD702D3EC3A82811F76490852266F2C8 /* TitanFMBase.modulemap */,
+				4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */,
+				1C1BBE761BE751758FA60FD46976E7A1 /* TitanFMBase-dummy.m */,
+				AF4FD2A5693CB3ECA326EB0DB33D6E31 /* TitanFMBase-prefix.pch */,
+				FD0F59F71EB59415771067C3FA4BB788 /* TitanFMBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TitanFMBase";
+			sourceTree = "<group>";
+		};
+		150C8E05AE81C908CF28C602EB8B9A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				256B150194EA371EAB2754676023E2BF /* TitanFMBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A6D1A802024A4DD0642445B7E410B38 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57F309809E311372FB1D6E43B3E9AF07 /* CALayer+PauseAimate.h */,
+				0598BB7BF1E951AC62724F1F058E33B2 /* CALayer+PauseAimate.m */,
+				79FD3E778FE5BC961AD5F05F17AC5D14 /* NSArray+Partition.h */,
+				1277881075FFD7CE1E5B9C6DFCAD7261 /* NSArray+Partition.m */,
+				7E12656875EB9DCCFB0D4A07F34EE5C3 /* NSObject+TKBundle.h */,
+				103305FE45D51A019EBAD940F0650658 /* NSObject+TKBundle.m */,
+				8DA57D60D27B41F95507B3E649DFC9D1 /* UIImage+Image.h */,
+				251F17CCF38F50829E9CAB06D719DB9E /* UIImage+Image.m */,
+				732ACB694B8DE23FBD6D62B0044F32BB /* UIView+Layout.h */,
+				D540CC17C3347377FFD5364607FC130D /* UIView+Layout.m */,
+				D5110EE767E481E902B3A2E1AEB54886 /* UIView+TKNib.h */,
+				450C2B1EBB57C9E729B8F391B4853D91 /* UIView+TKNib.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		22AB20EF296F87FB27CEA2697395D637 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE978FF3A86CFF3D352D9DC6D23B5CC /* Info.plist */,
+				530AA926ACAF6149216377E641EAC67B /* ResourceBundle-TKSegmentBar-Info.plist */,
+				F423131DABF277657A242F64837D948F /* TKSegmentBar.modulemap */,
+				E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */,
+				85AAECDA8120455777E02FAFC5F7D289 /* TKSegmentBar-dummy.m */,
+				0B652903A0B845BCE72E7831081EACC5 /* TKSegmentBar-prefix.pch */,
+				ED0B8C24D3592D21EC1AC68A1D3F6072 /* TKSegmentBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKSegmentBar";
+			sourceTree = "<group>";
+		};
+		256B150194EA371EAB2754676023E2BF /* TitanFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D1A802024A4DD0642445B7E410B38 /* Category */,
+				0C57EED0EF2C82B7DC1AF2A6847D26E2 /* Support Files */,
+			);
+			name = TitanFMBase;
+			path = TitanFMBase;
+			sourceTree = "<group>";
+		};
+		42841C45556FFE05712E1627EDDC461B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E83A63AD78F19AEA7DB9288592B91206 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ABC3DA68D761C514693B5CA71FE6B18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3113F778951EDE2B7215DD323ED91FA6 /* icon_radio_hide@2x.png */,
+				6A16CDBCC64FA9ACA6FC51F1A2412EDD /* icon_radio_hide@3x.png */,
+				110F3B38CAFF60CE0B1AE8E204603993 /* icon_radio_show@2x.png */,
+				006062B6C94E2374BF9854F4CD5688A4 /* icon_radio_show@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6055735DA728E931AC3A0A935D392514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B0FB401DDF118C410925DDBBEB4859 /* Pods_TKSegmentBar_Example.framework */,
+				98339D1D387B35994C02C416F2F375C5 /* Pods_TKSegmentBar_Tests.framework */,
+				7F3A268949CD8A686B205B641DAAE7CB /* TitanFMBase.framework */,
+				819C60D4C2A0681AD1733BB415D007A8 /* TKSegmentBar.bundle */,
+				23C9FA2082A6E9CD99E652AECBF89924 /* TKSegmentBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651EDD7FCA6913DA6C831A37E0D770CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91E6C3839EFBA2B8E593D7F37A60985C /* Pods-TKSegmentBar_Example */,
+				FD4257309B25815370AC97162248EDC1 /* Pods-TKSegmentBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8B0D3EEF6D48A06F28AB104DF373F176 /* Development Pods */,
+				8553A02B866A27E776CF81F3A676EDF5 /* Frameworks */,
+				150C8E05AE81C908CF28C602EB8B9A05 /* Pods */,
+				6055735DA728E931AC3A0A935D392514 /* Products */,
+				651EDD7FCA6913DA6C831A37E0D770CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8553A02B866A27E776CF81F3A676EDF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526FC0C9B34DC7A3403B6957480B2414 /* TitanFMBase.framework */,
+				42841C45556FFE05712E1627EDDC461B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B0D3EEF6D48A06F28AB104DF373F176 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F907938991CD05CF8CAFDB1082DC77B3 /* TKSegmentBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		91E6C3839EFBA2B8E593D7F37A60985C /* Pods-TKSegmentBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				935A387315F1DD112BCF43F8F2DF2F37 /* Info.plist */,
+				38FCEC8A364BC6D716D9118CDB9481B7 /* Pods-TKSegmentBar_Example.modulemap */,
+				5E0F70895A98753572F07BC4E7CF50ED /* Pods-TKSegmentBar_Example-acknowledgements.markdown */,
+				D4C4DAEA1C136949F0BD0909F72D0991 /* Pods-TKSegmentBar_Example-acknowledgements.plist */,
+				3A8E75BFD518503BA6D880B09BC7D4AD /* Pods-TKSegmentBar_Example-dummy.m */,
+				B6425B12CB6C1EBFDD8A8B7801CAC311 /* Pods-TKSegmentBar_Example-frameworks.sh */,
+				5F9A01A1DCB443A62D53BCA3860C0D18 /* Pods-TKSegmentBar_Example-resources.sh */,
+				2497D6317FE45096726F1BD705116F19 /* Pods-TKSegmentBar_Example-umbrella.h */,
+				ECB4EBD8115129CA7F175FCDC1F96D42 /* Pods-TKSegmentBar_Example.debug.xcconfig */,
+				B20B2FE3434D8CEFEB37EED10C6858F8 /* Pods-TKSegmentBar_Example.release.xcconfig */,
+			);
+			name = "Pods-TKSegmentBar_Example";
+			path = "Target Support Files/Pods-TKSegmentBar_Example";
+			sourceTree = "<group>";
+		};
+		F907938991CD05CF8CAFDB1082DC77B3 /* TKSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F9F33F050F3480304153D2BCCCF1A /* NSString+SegmentProtocol.h */,
+				256FA6EBB23EE858B3650F426F88C6EE /* NSString+SegmentProtocol.m */,
+				E1DBE17ACB915E71DE4D06D8B77EFA5A /* TKSegmentBar.h */,
+				7B86F72371421F3D7F90D1434EF9F817 /* TKSegmentBar.m */,
+				5FE0F63F2198382A5F678FB27E52F1C8 /* TKSegmentButton.h */,
+				1710DAE68DD95DBD06004E285878A1F1 /* TKSegmentButton.m */,
+				2DF9FBE2A3A7D75FAEAC3B9878E5C6A5 /* TKSegmentConfig.h */,
+				2DA7BD2C79C53B157F7E34920099EA08 /* TKSegmentConfig.m */,
+				B1C4E8D4750D2D2ADF247811F7B580BF /* TKSegmentController.h */,
+				ECD160F4AA8B1DA7310484E6A4D67BE0 /* TKSegmentController.m */,
+				B95B6F5FD2A4DED796768971AC68D34A /* TKSegmentMenueCell.h */,
+				FEF1F7C2427A5F46F28B57BBA07FADCB /* TKSegmentMenueCell.m */,
+				F60E8B84EECBCBD8348FB0BECA7C0739 /* TKSegmentMenueCell.xib */,
+				B2B9DA4D48625F12732D65CE7DB52CDF /* TKSegmentModelProtocol.h */,
+				0BB7B8EA8081789C60C33391AF5E9DA2 /* Pod */,
+				5ABC3DA68D761C514693B5CA71FE6B18 /* Resources */,
+				22AB20EF296F87FB27CEA2697395D637 /* Support Files */,
+			);
+			name = TKSegmentBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FD4257309B25815370AC97162248EDC1 /* Pods-TKSegmentBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A536519982D8CC2C0E2614277B82DEE /* Info.plist */,
+				973A1455F48D770D3E41D13CFACAC2E9 /* Pods-TKSegmentBar_Tests.modulemap */,
+				67E750527BD97EB9DC8C8051CDEE1E71 /* Pods-TKSegmentBar_Tests-acknowledgements.markdown */,
+				6BBFA663FC0783C1AFF519AED1EEFEFD /* Pods-TKSegmentBar_Tests-acknowledgements.plist */,
+				0287F844B6043E6A5B5771474202F2EC /* Pods-TKSegmentBar_Tests-dummy.m */,
+				B6460FA0F8882DF7C85FB40978BC9E17 /* Pods-TKSegmentBar_Tests-frameworks.sh */,
+				07256657C15F38221A648952280D9C32 /* Pods-TKSegmentBar_Tests-resources.sh */,
+				823886ECE8364659F4B5CB0AD4AE364F /* Pods-TKSegmentBar_Tests-umbrella.h */,
+				E935F0E0E6382EA05073BDBEA5BD8612 /* Pods-TKSegmentBar_Tests.debug.xcconfig */,
+				BD779590F1FBC8E104EEB7A80FD5BE43 /* Pods-TKSegmentBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKSegmentBar_Tests";
+			path = "Target Support Files/Pods-TKSegmentBar_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CF79CC0987C982275343A4F5F1A4B74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A87E75FEE1DE43B8CC2E142FB68B612 /* NSString+SegmentProtocol.h in Headers */,
+				E998CA66390864A52AEBF5735986DEBD /* TKSegmentBar-umbrella.h in Headers */,
+				3E6F0061BAC343F733D0B13B332778E5 /* TKSegmentBar.h in Headers */,
+				41FD5CB1B349BE62B9E7D06AB66CE525 /* TKSegmentButton.h in Headers */,
+				B1467700C8AA224D472F7513D08CCCBE /* TKSegmentConfig.h in Headers */,
+				20C8321CE386F98AD144D47A5883C583 /* TKSegmentController.h in Headers */,
+				8AA431A8DCA2DA459046B2FF7E534EAA /* TKSegmentMenueCell.h in Headers */,
+				52D97A3B222C9C59E0B9770385E5C3CE /* TKSegmentModelProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E3ECAB02CAEC3D7B59B8E833858F08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BA68FC50502DDDAC388C5F31C8B42D /* CALayer+PauseAimate.h in Headers */,
+				029F4506CDB6A1E5966C7CE123FA073B /* NSArray+Partition.h in Headers */,
+				0DB9AF98286019867A47D9F0648C1518 /* NSObject+TKBundle.h in Headers */,
+				3F0FD2773EFB56BF1F3EB45EEEBE060A /* TitanFMBase-umbrella.h in Headers */,
+				73AC0CAFBE2C48D2EE1A0E203D0B68B5 /* UIImage+Image.h in Headers */,
+				CB97585EB011FF22503285B9DF255CD1 /* UIView+Layout.h in Headers */,
+				37324F7C8C518A99573C3C326E3E5450 /* UIView+TKNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F59A10C5D79D2528E961F38B0F0E4C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF298175F6BBBCDDF85D3930BE72D36E /* Pods-TKSegmentBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2172149161E05A634D41E20E353797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7756B03E267DB878BF2F4C898EA2E89 /* Pods-TKSegmentBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3274B5B34503472E6CBE575864B6F6C6 /* Pods-TKSegmentBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030B9027DB83241D710DB216F83748F6 /* Build configuration list for PBXNativeTarget "Pods-TKSegmentBar_Tests" */;
+			buildPhases = (
+				BC2172149161E05A634D41E20E353797 /* Headers */,
+				F8A7D1E75FF671ACC72E456C7C7AEB75 /* Sources */,
+				C38FF42281BF2479650F623A07E036A2 /* Frameworks */,
+				FC6D9A419393AC26A53D509665223777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99ECAF851665109CC794C86BD98608FC /* PBXTargetDependency */,
+			);
+			name = "Pods-TKSegmentBar_Tests";
+			productName = "Pods-TKSegmentBar_Tests";
+			productReference = 98339D1D387B35994C02C416F2F375C5 /* Pods_TKSegmentBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FDAD1E3F302CA63496F2ECDF5E578CF /* Pods-TKSegmentBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB6C28CCC89E119D03B1B22A2D437F5 /* Build configuration list for PBXNativeTarget "Pods-TKSegmentBar_Example" */;
+			buildPhases = (
+				9F59A10C5D79D2528E961F38B0F0E4C5 /* Headers */,
+				B26393E99E196997CBEB276BE03F3B96 /* Sources */,
+				D77658E9645E830BB1C7FF478BDA5A4E /* Frameworks */,
+				5293ED99310000E8578AB63FC7F40E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369960EADAAE21D29B091845CB2CC5F9 /* PBXTargetDependency */,
+				60B251B6B72CAB03E854DC8C61AC7E61 /* PBXTargetDependency */,
+			);
+			name = "Pods-TKSegmentBar_Example";
+			productName = "Pods-TKSegmentBar_Example";
+			productReference = 60B0FB401DDF118C410925DDBBEB4859 /* Pods_TKSegmentBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45882A17A423C278BEEA8A461BF14FE7 /* TKSegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89786FAB0FD06EC5F66B628B295F9B4D /* Build configuration list for PBXNativeTarget "TKSegmentBar" */;
+			buildPhases = (
+				5CF79CC0987C982275343A4F5F1A4B74 /* Headers */,
+				C6E88D61F90D1CE55A878817223AA174 /* Sources */,
+				EAD9FB44E8A464D8B31E9A2EB389B727 /* Frameworks */,
+				11F28764DE62486B080B867F39202FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2154DEFD38256D2643AE48896163C790 /* PBXTargetDependency */,
+				C032ED6B596432CD3C347704C7DE65A0 /* PBXTargetDependency */,
+			);
+			name = TKSegmentBar;
+			productName = TKSegmentBar;
+			productReference = 23C9FA2082A6E9CD99E652AECBF89924 /* TKSegmentBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1F3A4B62A70E20436326635A38AEFA4 /* TKSegmentBar-TKSegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1813996AA8F55408EC8B1353DB242B84 /* Build configuration list for PBXNativeTarget "TKSegmentBar-TKSegmentBar" */;
+			buildPhases = (
+				AEEEAC01A6149686A1039F7DC9123E89 /* Sources */,
+				04426FA7F9B66DA066CB06CDCD31CAE1 /* Frameworks */,
+				B1FA1F674291EFD723B02F2423E5CAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TKSegmentBar-TKSegmentBar";
+			productName = "TKSegmentBar-TKSegmentBar";
+			productReference = 819C60D4C2A0681AD1733BB415D007A8 /* TKSegmentBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EDAEC93FAF297FA790494EE6E0EBE72B /* TitanFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A0E7119B5ECF5471AC3C8614EF5EC9 /* Build configuration list for PBXNativeTarget "TitanFMBase" */;
+			buildPhases = (
+				62E3ECAB02CAEC3D7B59B8E833858F08 /* Headers */,
+				5A21E0DF95BE2B2ABF3C6C2BA98F9FE4 /* Sources */,
+				BED9B9744C756ADFF42470C67972CB17 /* Frameworks */,
+				6AB520D46612D2DD0E802824C85D1F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TitanFMBase;
+			productName = TitanFMBase;
+			productReference = 7F3A268949CD8A686B205B641DAAE7CB /* TitanFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6055735DA728E931AC3A0A935D392514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDAD1E3F302CA63496F2ECDF5E578CF /* Pods-TKSegmentBar_Example */,
+				3274B5B34503472E6CBE575864B6F6C6 /* Pods-TKSegmentBar_Tests */,
+				EDAEC93FAF297FA790494EE6E0EBE72B /* TitanFMBase */,
+				45882A17A423C278BEEA8A461BF14FE7 /* TKSegmentBar */,
+				C1F3A4B62A70E20436326635A38AEFA4 /* TKSegmentBar-TKSegmentBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F28764DE62486B080B867F39202FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832CC1F84B95FEBD6FB190AF68CE3B7B /* TKSegmentBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5293ED99310000E8578AB63FC7F40E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB520D46612D2DD0E802824C85D1F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1FA1F674291EFD723B02F2423E5CAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD664F8C29F8A07DBBA34D76075AFA6 /* icon_radio_hide@2x.png in Resources */,
+				AAC8891EAE95E6089DB50AC592E8A1CE /* icon_radio_hide@3x.png in Resources */,
+				05BE36DA88F5B02AE5E9911421D93FA2 /* icon_radio_show@2x.png in Resources */,
+				96E19652BABE2C77F8F0A40E05C627A2 /* icon_radio_show@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6D9A419393AC26A53D509665223777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A21E0DF95BE2B2ABF3C6C2BA98F9FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7A18853A37B70D1C07E03478E6898A /* CALayer+PauseAimate.m in Sources */,
+				81776DE76A947F65BA176730F22CCBDA /* NSArray+Partition.m in Sources */,
+				13C0342177E219565C63CFF13035C4E3 /* NSObject+TKBundle.m in Sources */,
+				7AEF48872ED9DF5763AB086AD35B3724 /* TitanFMBase-dummy.m in Sources */,
+				74C156FAEBA312C96BFE1F96000070E6 /* UIImage+Image.m in Sources */,
+				2864043DE81968B054BAB32DA26110B3 /* UIView+Layout.m in Sources */,
+				B9E75617C13B5948A34BB2EF9356130D /* UIView+TKNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEEAC01A6149686A1039F7DC9123E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26393E99E196997CBEB276BE03F3B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC337DA9A3F9DED1D38C119B830E261 /* Pods-TKSegmentBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E88D61F90D1CE55A878817223AA174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D64CA7D848215E9458869835533BF25 /* NSString+SegmentProtocol.m in Sources */,
+				13698E6271B8D284CC927F54605E40D4 /* TKSegmentBar-dummy.m in Sources */,
+				5191F9FBCA23ABA6B49FAA640136BFC0 /* TKSegmentBar.m in Sources */,
+				E3F4CA4ECB97DD5C7D2763E4C96E89BA /* TKSegmentButton.m in Sources */,
+				D1B59F4152E6B48BF10D2CF180B1E8B1 /* TKSegmentConfig.m in Sources */,
+				3796C6AA1619703D6DB287D22A1A5AF3 /* TKSegmentController.m in Sources */,
+				2BEBAEFC45F5E1E0428F6374CE89C8D4 /* TKSegmentMenueCell.m in Sources */,
+				AAA5E230DF84097E47259D75A4597577 /* TKSegmentMenueCell.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A7D1E75FF671ACC72E456C7C7AEB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7B818DD051CA7579F910104C2EF717 /* Pods-TKSegmentBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2154DEFD38256D2643AE48896163C790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TKSegmentBar-TKSegmentBar";
+			target = C1F3A4B62A70E20436326635A38AEFA4 /* TKSegmentBar-TKSegmentBar */;
+			targetProxy = 4170A18B7926022B42C3CEAB10CBF984 /* PBXContainerItemProxy */;
+		};
+		369960EADAAE21D29B091845CB2CC5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSegmentBar;
+			target = 45882A17A423C278BEEA8A461BF14FE7 /* TKSegmentBar */;
+			targetProxy = A908BFD5D58B3D8F8AA90936376F55C7 /* PBXContainerItemProxy */;
+		};
+		60B251B6B72CAB03E854DC8C61AC7E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TitanFMBase;
+			target = EDAEC93FAF297FA790494EE6E0EBE72B /* TitanFMBase */;
+			targetProxy = 4A3B0CEA4C091BDDA39F93170EB416C6 /* PBXContainerItemProxy */;
+		};
+		99ECAF851665109CC794C86BD98608FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TKSegmentBar_Example";
+			target = 3FDAD1E3F302CA63496F2ECDF5E578CF /* Pods-TKSegmentBar_Example */;
+			targetProxy = C1278434A104D19C4857FFE8DDCB065C /* PBXContainerItemProxy */;
+		};
+		C032ED6B596432CD3C347704C7DE65A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TitanFMBase;
+			target = EDAEC93FAF297FA790494EE6E0EBE72B /* TitanFMBase */;
+			targetProxy = EC02E890E01245C83348382A2912C0AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		57980E330BA866851884B4BD72614FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKSegmentBar/TKSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSegmentBar/TKSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = TKSegmentBar;
+				PRODUCT_NAME = TKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58D320AB51C199057A53D92314C2C619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKSegmentBar";
+				INFOPLIST_FILE = "Target Support Files/TKSegmentBar/ResourceBundle-TKSegmentBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5B3AE4F91750977C99343061375BBF57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E935F0E0E6382EA05073BDBEA5BD8612 /* Pods-TKSegmentBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSegmentBar_Tests/Pods-TKSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C8E3F059164D31FB5248CF5B6452F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD779590F1FBC8E104EEB7A80FD5BE43 /* Pods-TKSegmentBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSegmentBar_Tests/Pods-TKSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B4179F98322163924A3BA2146F13EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TitanFMBase/TitanFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TitanFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TitanFMBase/TitanFMBase.modulemap";
+				PRODUCT_MODULE_NAME = TitanFMBase;
+				PRODUCT_NAME = TitanFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE24115822FD08DD6AD25B67DEA917D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4266DDA9467F6DCD14757963092102D5 /* TitanFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TitanFMBase/TitanFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TitanFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TitanFMBase/TitanFMBase.modulemap";
+				PRODUCT_MODULE_NAME = TitanFMBase;
+				PRODUCT_NAME = TitanFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D10A9C67D8559BF641F95A75C33F0492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20B2FE3434D8CEFEB37EED10C6858F8 /* Pods-TKSegmentBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSegmentBar_Example/Pods-TKSegmentBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3B77635E16852FDB0332CF9BBB858C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB4EBD8115129CA7F175FCDC1F96D42 /* Pods-TKSegmentBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSegmentBar_Example/Pods-TKSegmentBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F45B17EB3D9FEEBCC6B68CC7E7E4E589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TKSegmentBar";
+				INFOPLIST_FILE = "Target Support Files/TKSegmentBar/ResourceBundle-TKSegmentBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F5A6A8122261102CCACB54B298F576D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15B77833B52AC2E411FAF91F3CE1AD1 /* TKSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKSegmentBar/TKSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSegmentBar/TKSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = TKSegmentBar;
+				PRODUCT_NAME = TKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030B9027DB83241D710DB216F83748F6 /* Build configuration list for PBXNativeTarget "Pods-TKSegmentBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3AE4F91750977C99343061375BBF57 /* Debug */,
+				5C8E3F059164D31FB5248CF5B6452F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1813996AA8F55408EC8B1353DB242B84 /* Build configuration list for PBXNativeTarget "TKSegmentBar-TKSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D320AB51C199057A53D92314C2C619 /* Debug */,
+				F45B17EB3D9FEEBCC6B68CC7E7E4E589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB6C28CCC89E119D03B1B22A2D437F5 /* Build configuration list for PBXNativeTarget "Pods-TKSegmentBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B77635E16852FDB0332CF9BBB858C6 /* Debug */,
+				D10A9C67D8559BF641F95A75C33F0492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89786FAB0FD06EC5F66B628B295F9B4D /* Build configuration list for PBXNativeTarget "TKSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57980E330BA866851884B4BD72614FF0 /* Debug */,
+				F5A6A8122261102CCACB54B298F576D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A0E7119B5ECF5471AC3C8614EF5EC9 /* Build configuration list for PBXNativeTarget "TitanFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4179F98322163924A3BA2146F13EEF /* Debug */,
+				AE24115822FD08DD6AD25B67DEA917D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
