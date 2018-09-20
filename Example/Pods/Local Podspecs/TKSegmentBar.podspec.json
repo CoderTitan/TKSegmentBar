@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "summary": "TKSegmentBar",
   "description": "TKSegmentBar是一款选择控制器",
-  "homepage": "https://coding.net/u/CoderTitan/p/TKSegmentBar",
+  "homepage": "https://github.com/CoderTitan/TKSegmentBar",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "CoderTitan": "quanjunt@163.com"
   },
   "source": {
-    "git": "https://git.coding.net/CoderTitan/TKSegmentBar.git",
+    "git": "https://github.com/CoderTitan/TKSegmentBar.git",
     "tag": "0.2.2"
   },
   "platforms": {
