@@ -1,15 +1,14 @@
 //
-//  UIView+Layout.m
-//  MainModule
+//  UIView+SegLayout.m
+//  TKSegmentBar_Example
 //
-//  Created by quanjunt on 2018/8/24.
-//  Copyright © 2018年 quanjunt. All rights reserved.
+//  Created by quanjunt on 2018/9/20.
+//  Copyright © 2018年 CoderTitan. All rights reserved.
 //
 
-#import "UIView+Layout.h"
+#import "UIView+SegLayout.h"
 
-@implementation UIView (Layout)
-
+@implementation UIView (SegLayout)
 
 -(void)setCenterX:(CGFloat)centerX {
     CGPoint center = self.center;

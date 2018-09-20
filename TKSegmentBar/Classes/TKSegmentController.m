@@ -7,9 +7,9 @@
 //
 
 #import "TKSegmentController.h"
-#import "UIView+Layout.h"
+#import "UIView+SegLayout.h"
 #import "TKSegmentMenueCell.h"
-#import "NSObject+TKBundle.h"
+
 
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width

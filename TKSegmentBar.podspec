@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKSegmentBar'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'TKSegmentBar'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'TitanFMBase/Category'
+
 end

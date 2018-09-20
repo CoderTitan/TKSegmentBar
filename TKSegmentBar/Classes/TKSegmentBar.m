@@ -7,7 +7,7 @@
 //
 
 #import "TKSegmentBar.h"
-#import "UIView+Layout.h"
+#import "UIView+SegLayout.h"
 #import "TKSegmentController.h"
 #import "TKSegmentButton.h"
 

@@ -334,12 +334,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TKSegmentBar_Example/Pods-TKSegmentBar_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TKSegmentBar/TKSegmentBar.framework",
-				"${BUILT_PRODUCTS_DIR}/TitanFMBase/TitanFMBase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKSegmentBar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TitanFMBase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

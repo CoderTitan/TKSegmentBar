@@ -17,6 +17,7 @@
 #import "TKSegmentController.h"
 #import "TKSegmentMenueCell.h"
 #import "TKSegmentModelProtocol.h"
+#import "UIView+SegLayout.h"
 
 FOUNDATION_EXPORT double TKSegmentBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char TKSegmentBarVersionString[];

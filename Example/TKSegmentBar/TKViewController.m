@@ -8,7 +8,7 @@
 
 #import "TKViewController.h"
 #import "TKSegmentBar.h"
-#import "UIView+Layout.h"
+#import "UIView+SegLayout.h"
 
 // 屏幕尺寸相关
 #define kScreenBounds [[UIScreen mainScreen] bounds]

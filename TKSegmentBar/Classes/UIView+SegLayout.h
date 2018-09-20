@@ -1,14 +1,16 @@
 //
-//  UIView+Layout.h
-//  MainModule
+//  UIView+SegLayout.h
+//  TKSegmentBar_Example
 //
-//  Created by quanjunt on 2018/8/24.
-//  Copyright © 2018年 quanjunt. All rights reserved.
+//  Created by quanjunt on 2018/9/20.
+//  Copyright © 2018年 CoderTitan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Layout)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIView (SegLayout)
 
 @property (nonatomic, assign) CGFloat x;
 
@@ -30,4 +32,7 @@
  */
 - (UIViewController *)currentViewController;
 
+
 @end
+
+NS_ASSUME_NONNULL_END
